@@ -14,7 +14,7 @@ This wrapper does not implement any extra functionality.
 terraform {
   source = "tfr:///dsohqlab/route53-profiles/aws//wrappers"
   # Alternative source:
-  # source = "git::git@github.com:dsohqlab/terraform-aws-route53-profiles.git//wrappers?ref=master"
+  # source = "git::git@github.com:dsohqlab/terraform-aws-route53-profiles.git//wrappers?ref=main"
 }
 
 inputs = {
